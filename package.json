@@ -1,0 +1,31 @@
+{
+  "name": "hpurifier",
+  "version": "0.0.1",
+  "description": "Small Utility to escape and unescape HTML entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandra/hpurifier.git"
+  },
+  "keywords": [
+    "escape",
+    "unescape",
+    "html"
+  ],
+  "author": "Arif Mandra <arif.mandra@gmail.com> (www.google.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandra/hpurifier/issues"
+  },
+  "homepage": "https://github.com/amandra/hpurifier#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "make test"
+  } 
+}
